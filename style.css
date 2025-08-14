@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family:  sans-serif;
     color:#FFE9C3;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +87,7 @@ body{
   
     .first, .second, .third {
       width: 100%; /* Full width on mobile */
+      height: auto;
     }
   }
   
